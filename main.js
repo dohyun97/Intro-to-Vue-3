@@ -4,7 +4,8 @@ const app = Vue.createApp({
             cart:0,
             product: 'Socks',
             image:'./assets/images/socks_green.jpg' ,
-            inventory: 8 ,
+            inventory: 0 ,
+            InStock:false,
             details: ['50% cotton','30% wool', '20% polyster'],
             variants:[
                 {id: 2345, color:'green', image:'./assets/images/socks_green.jpg'},
